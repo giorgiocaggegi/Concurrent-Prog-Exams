@@ -13,10 +13,10 @@ The synchronization mechanisms used throughout the solutions are:
 - **Condition variables** and mutexes in others  
 - Only **semaphores** in some cases  
 
-Almost all solutions also involve reading and/or writing **plain text** or **binary files** as part of the OS interaction exercize.
+Almost all solutions also involve reading and/or writing **plain text** or **binary files** as part of the OS interaction exercise.
 
-A common theme is the **Producer/Consumer** problem, used for implementing necessary data structures, such as stack or queues, and synchronization logic.  
-All assignments ask to let the program self-terminate. Consequently, the sync logic includes mechanisms which allowed the consumer to detect when the producer has terminated.
+A common theme is the **Producer/Consumer** problem, used for implementing necessary data structures, such as stacks or queues, and synchronization logic.  
+All assignments ask to let the program self-terminate. Consequently, the sync logic includes mechanisms which allows the consumer to detect when the producer has terminated.
    
 
 ## Notes  
