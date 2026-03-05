@@ -17,25 +17,19 @@ The program takes as input **N** text files containing descriptions of 3x3 squar
 #### Magic total: 15
 
 | 8 | 1 | 6 |
-|---|---|---|
 | 3 | 5 | 7 |
-|---|---|---|
 | 4 | 9 | 2 |
 
 #### Magic total: 30
 
 | 16 | 2  | 12 |
-|----|----|----|
 | 6  | 10 | 14 |
-|----|----|----|
 | 8  | 18 | 4  |
 
 #### Magic total: 45
 
 | 24 | 3  | 18 |
-|----|----|----|
 | 9  | 15 | 21 |
-|----|----|----|
 | 12 | 27 | 6  |
 
 ### Program Requirements
@@ -45,7 +39,7 @@ At startup, the program must create **N + M threads**:
 - **N reader threads**, each responsible for reading one of the input files.  
   - Each line in the file represents a 3x3 matrix of integers in the format:  
     `"36,13,27,9,24,41,18,3,30"`
-  - Example input files: `squares-1.txt`, `squares-2.txt`, `squares-3.txt`
+  - Example input files: `ms1.txt`, `ms2.txt`, `ms3.txt`
 
 - **M verifier threads**, each responsible for checking whether a given 3x3 matrix is a magic square.
 
