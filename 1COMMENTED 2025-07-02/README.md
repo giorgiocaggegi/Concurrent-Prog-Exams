@@ -16,7 +16,7 @@ The program takes as input **N** text files containing descriptions of 3x3 squar
 
 #### Magic total: 15
 
-```
+```c
 8   1   6
 3   5   7
 4   9   2
@@ -24,15 +24,19 @@ The program takes as input **N** text files containing descriptions of 3x3 squar
 
 #### Magic total: 30
 
-| 16 | 2  | 12 |
-| 6  | 10 | 14 |
-| 8  | 18 | 4  |
+```c
+16   2    12 
+6    10   14
+8    18   4
+```
 
 #### Magic total: 45
 
-| 24 | 3  | 18 |
-| 9  | 15 | 21 |
-| 12 | 27 | 6  |
+```c
+24   3    18
+9    15   21 
+12   27   6
+```
 
 ### Program Requirements
 
