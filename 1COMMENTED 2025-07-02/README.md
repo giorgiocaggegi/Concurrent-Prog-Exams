@@ -16,11 +16,13 @@ The program takes as input **N** text files containing descriptions of 3x3 squar
 
 #### Magic total: 15
 
-| | | |
-|--|--|--|
-| 8 | 1 | 6 |
-| 3 | 5 | 7 |
-| 4 | 9 | 2 |
+\[
+\begin{bmatrix}
+8 & 1 & 6 \\
+3 & 5 & 7 \\
+4 & 9 & 2
+\end{bmatrix}
+\]
 
 #### Magic total: 30
 
